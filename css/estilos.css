@@ -867,7 +867,7 @@ body {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 412px) {
     body {
         margin: 15px;
         background-image: linear-gradient(180deg, #cacaca60 0%, #c5c5c5 100%), url(./../images/pattern.png);
@@ -1122,8 +1122,8 @@ body {
         padding-bottom: 10px;
     }
     .iframe__map {
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: 100%;
         position: relative;
         left: 20px;
         top: 20px;
