@@ -48,7 +48,7 @@ body.light-mode {
   
   /* Efectos hover */
   .btn:hover {
-    background-color: #61616149;
+    background-color: #96969649;
     transform: scale(1.05);
   }
 
