@@ -604,7 +604,8 @@ body.light-mode {
         grid-column: 1/-1;
     }
     .testimony__container {
-        grid-template-columns: 30px 1fr 30px;
+        width: 60%;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     .testimony__body {
         grid-template-columns: 1fr;
@@ -615,6 +616,10 @@ body.light-mode {
     .testimony__img {
         width: 200px;
         height: 200px;
+    }
+    .testimony__arrow {
+        width: 60px;
+        cursor: pointer;
     }
     .question__copy {
         width: 100%;
@@ -653,11 +658,9 @@ body.light-mode {
         margin-top: 80px;
     }
     .iframe__map {
-        width: 150%;
-        height: 150%;
-        position: relative;
-        left: 30px;
-        top: 20px;
+        width: 228%;
+        height: 20vh;
+
     }
     .version {
         position: relative;
@@ -681,6 +684,42 @@ body.light-mode {
         border-radius: 30px;
         clip-path: polygon(100% 0, 100% 70%, 0 100%, 0 0);
     }
+
+    .knowledge {
+        background-image: linear-gradient(180deg, #00000056 0%, #00000071 100%), url(./../images/miaPerfil2.jpg);
+        background-size: cover;
+        background-position: 50% 50%;
+        border-radius: 15px;
+    }
+    .subtitle__knowledge {
+        color: #fff;
+        font-size: 40px;
+        margin: 20px;
+    }
+    
+    .knowledge__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        align-items: center;
+    }
+    
+    .knowledge__picture {
+        max-width: 500px;
+    }
+    
+    .knowledge__paragraph {
+        font-size: 18px;
+        color: #fff;
+        line-height: 2;
+        margin-bottom: 20px;
+    }
+    
+    .knowledge__img  {
+        width: 100%;
+        display: inline-block;
+    }
+
     .nav__menu {
         display: block;
     }
@@ -724,15 +763,21 @@ body.light-mode {
         grid-column: 1/-1;
     }
     .testimony__container {
+        width: 70%;
+        margin: auto;
         grid-template-columns: 30px 1fr 30px;
+    }
+    .testimony__arrow {
+        width: 90%;
+        cursor: pointer;
     }
  /* ----------------------------------------------- */
 
  .knowledge {
     background-image: linear-gradient(180deg, #00000056 0%, #00000071 100%), url(./../images/miaPerfil2.jpg);
     background-size: cover;
+    background-position: 50% 50%;
     border-radius: 15px;
-    padding: 100px;
 }
 .subtitle__knowledge {
     color: #fff;
@@ -922,11 +967,9 @@ body.light-mode {
         padding-bottom: 10px;
     }
     .iframe__map {
-        width: 90%;
-        height: 90%;
+        width: 100%;
         position: relative;
-        left: 20px;
-        top: 20px;
+        left: 35%;
     }
     .footer__copyright {
         font-size: 12px;
