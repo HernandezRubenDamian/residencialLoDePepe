@@ -881,7 +881,7 @@ body.light-mode {
     .testimony__body {
         grid-template-columns: 1fr;
         grid-template-rows: max-content max-content;
-        gap: 3em;
+        gap: 1em;
         justify-items: center;
     }
     .testimony__img {
@@ -898,11 +898,13 @@ body.light-mode {
     .testimony__container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 1em;
-        align-items: center;
+        gap: 0.2em;
+        position: relative;
     }
      /* >>>>>>> THIS IS INTEGRED AT SCRIPT SLIDER >>>>> */
     .testimony__body--show {
+        text-align: center;
+        width: 20px;
         pointer-events: unset;
         opacity: 1;
         transition: opacity 0.6s ease-in-out;
@@ -916,12 +918,12 @@ body.light-mode {
         background-color: rgba(113, 116, 112, 0.63);
         color: #fff;
         display: inline-block;
-        padding: 5px;
+        padding: 2px;
         border-radius: 10px;
     }
     
     .testimony__arrow {
-        width: 90%;
+        width: auto;
         cursor: pointer;
     }
     .question__copy {
@@ -973,7 +975,7 @@ body.light-mode {
     }
 
 .hechoConAmor {
-    font-size: 15px;
+    font-size: 12px;
 }
     .footer__copyright {
         font-size: 10px;
