@@ -969,9 +969,13 @@ body.light-mode {
     .iframe__map {
         width: 100%;
         position: relative;
-        left: 35%;
+        left: 20px;
     }
+
+.hechoConAmor {
+    font-size: 15px;
+}
     .footer__copyright {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
