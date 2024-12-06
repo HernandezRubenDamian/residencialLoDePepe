@@ -971,6 +971,9 @@ body.light-mode {
         position: relative;
         left: 35%;
     }
+    .emoji {
+        font-size: 10px;
+    }
     .footer__copyright {
         font-size: 12px;
     }
