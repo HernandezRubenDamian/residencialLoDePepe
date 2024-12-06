@@ -878,12 +878,7 @@ body.light-mode {
         background-color: var(--bg-cta);
         box-shadow: 0 0 1px rgba(15, 15, 15, 0.5);
     }
-    .testimony__body {
-        grid-template-columns: 1fr;
-        grid-template-rows: max-content max-content;
-        gap: 1em;
-        justify-items: center;
-    }
+    
     .testimony__img {
         width: 200px;
         height: 200px;
@@ -898,13 +893,12 @@ body.light-mode {
     .testimony__container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 0.2em;
-        position: relative;
+        gap: inherit;
     }
      /* >>>>>>> THIS IS INTEGRED AT SCRIPT SLIDER >>>>> */
     .testimony__body--show {
         text-align: center;
-        width: 20px;
+        width: 10px;
         pointer-events: unset;
         opacity: 1;
         transition: opacity 0.6s ease-in-out;
@@ -975,7 +969,7 @@ body.light-mode {
     }
 
 .hechoConAmor {
-    font-size: 12px;
+    font-size: 10px;
 }
     .footer__copyright {
         font-size: 10px;
