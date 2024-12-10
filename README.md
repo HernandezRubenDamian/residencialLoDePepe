@@ -3,5 +3,5 @@ project 01 = {
     author: Hernández Rubén Damián,
     alias: Lil D,
     date: 29-11-2024,
-    version: 1.2.5 Release,
+    version: 2.0.0,
 };
